@@ -6,8 +6,6 @@ church: Thornhill Church, Cardiff
 file: //path-to-your/file.mp3
 excerpt: This is the excerpt
 summary: This is the summary
-# Length in minutes of the MP3
 duration: " "
-# File size of the MP3 in bytes
 length: " "
 ---
