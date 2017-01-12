@@ -4,8 +4,8 @@ date: 2016-12-04 19:32:10
 scripture: "1 Thessalonians 5:12-28"
 church: Thornhill Church, Cardiff
 file: //path-to-your/file.mp3
-excerpt:
-summary:
+excerpt: This is the excerpt
+summary: This is the summary
 duration: "14:50" #audio length in min
 length: "14459510" #filesize in bytes
 ---

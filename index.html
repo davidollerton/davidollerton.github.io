@@ -3,10 +3,31 @@ layout: default
 title: Homepage
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+<ol class="messages">
+	{% for post in site.posts reversed %}
+	<li>
+		<article>
+			<time class="message-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B, %Y" }}</time>
+			<h2 class="message-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			{% if post.excerpt %}
+			<div class="message-excerpt">
+				<p>
+					{{ post.excerpt }}
+				</p>
+			</div>
+			{% endif %}
+			{% if post.scripture %}
+			<div class="message-scripture">
+				{{ post.scripture }}
+			</div>
+			{% endif %}
+			{% if post.church %}
+			<div class="message-church">
+				{{ post.church }}
+			</div>
+			{% endif %}
+		</article>
+	{% endfor %}
+	</li>
+</ol>

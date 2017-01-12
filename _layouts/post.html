@@ -5,17 +5,17 @@ layout: default
 <article>
 
   <header>
-    <h2>{{ post.title }}</h2>
-    <time datetime="{{ post.date }}">{{ post.date }}</time>
+    <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+    <h2>{{ page.title }}</h2>
   </header>
 
   <section>
     <div class="player"></div>
-    <div class="description"></div>
+    <div class="description">{{ page.summary }}</div>
   </section>
 
   <footer>
-    <a class="" href="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>Download MP3</a>
+    <a class="" href="http:{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>Download MP3</a>
   </footer>
 
 </article>
