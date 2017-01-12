@@ -6,6 +6,8 @@ church: Thornhill Church, Cardiff
 file: //path-to-your/file.mp3
 excerpt: This is the excerpt
 summary: This is the summary
-duration: "14:50" #audio length in min
-length: "14459510" #filesize in bytes
+# Length in minutes of the MP3
+duration: " "
+# File size of the MP3 in bytes
+length: " "
 ---
