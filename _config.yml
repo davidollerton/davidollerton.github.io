@@ -1,0 +1,14 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Podcast Feed Settings
+title:          David Ollerton Sermons
+email:          sermons@davidollerton.org
+description:    "your-podcast-description"
+subtitle:       "your-podcast-subtitle"
+url:            www.davidollerton.org
+lang:           your-language-code
+author:         David Ollerton
+copyright:      "&#x2117; &amp; &#xA9; 2017"
+keywords:

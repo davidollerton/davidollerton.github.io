@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/ico"/>
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/icons/apple-touch-icon-192x192.png" type="image/png"/>
+    <link rel="mask-icon" href="{{ site.baseurl }}/images/icons/icon.svg" color="{{ site.theme_color }}"/>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+    {% feed_meta %}
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="{{ site.author.name }}"/>
+    <meta name="referrer" content="origin"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+
+  </head>
+
+  <body id="top">
+
+    {% include header.html %}
+    {% include main.html %}
+    {% include footer.html %}
+
+  </body>
+</html>
