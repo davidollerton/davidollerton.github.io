@@ -1,0 +1,192 @@
+html {
+font-family: $basefontfamily;
+font-size: 1rem;
+line-height: 1.6;
+background-color: $deepblue;
+color: #fff;
+}
+
+body {
+margin: 0 auto;
+}
+
+h1,
+h2 {}
+
+h3,
+h4,
+h5,
+h6 {
+font-size: inherit;
+}
+
+h3 {
+font-weight: bold;
+}
+
+h1 {}
+
+h3,
+h4,
+h5 {
+margin: 0.8em 0;
+}
+
+h6 {
+float: left;
+font-weight: bold;
+line-height: 1.6em;
+text-transform: lowercase;
+}
+
+dl,
+figure,
+ol,
+p,
+table,
+time,
+ul {
+margin: 0 auto 1.6em;
+}
+
+a {
+background-image: linear-gradient(to bottom, $deepblue 75%, $deepblue 75%);
+background-repeat: repeat-x;
+background-size: 1px 1px;
+text-decoration: none;
+background-position: 0 99.9%;
+color: $textcolor;
+
+  &:hover {
+  color: $deepblue;
+  background-image: linear-gradient(to bottom, $deepblue 75%, $deepblue 75%);
+  }
+
+  &.active {
+  border-radius: 0;
+  background-clip: border-box;
+  text-decoration: none;
+  text-shadow: none;
+  color: $deepblue;
+  background-image: linear-gradient(to bottom, $deepblue 75%, $deepblue 75%);
+  }
+
+  &::-moz-selection {
+  text-shadow: none;
+  }
+
+  &::selection {
+  text-shadow: none;
+  }
+
+  &::selection:window-inactive {
+  background-color: #d3d3d3;
+  }
+
+}
+
+a[href*="//"]:not([href*="rdsaunders."])::after {
+background-color: #fafafa;
+}
+
+
+figure a {
+text-decoration: none;
+text-shadow: none;
+background: none;
+
+  &:hover {background: none;}
+
+}
+
+
+::-moz-active,
+::-moz-selection {
+background-color: lighten($deepblue, 20%);
+}
+
+::active,
+::selection {
+background-color: lighten($deepblue, 20%);
+}
+
+code,
+kbd,
+samp {
+padding: 0 0.32em;
+}
+
+pre {
+margin: 1.6em 0;
+padding: 0.8em 1.6em;
+word-wrap: break-word;
+white-space: pre-wrap;
+
+  code {
+  padding-left: 0;
+  padding-right: 0;}
+
+}
+
+code,
+kbd,
+pre,
+samp {
+font-family: $codefontfamily;
+background-color: #f2f2f2;
+}
+
+ol,
+ul {
+margin-left: 1.6em;
+padding-left: 0;
+}
+
+
+li ol,
+li ul {
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 1.6em;
+}
+
+img {
+max-width: 100%;
+}
+
+figure {
+text-align: center;
+
+  img {
+  margin: 0 auto;
+  }
+
+  a:after {
+  display: none;
+  }
+
+}
+
+
+figcaption {
+text-align: left;
+font-style: italic;
+
+  &:last-child {
+  margin-top: 0.8em;
+  margin-bottom: 2.4em;
+  }
+
+  a:after {
+  display: inline;
+  }
+
+}
+
+hr {
+width: 100%;
+margin: 1.6em auto;
+border: -0.5px solid;
+color: #4a4a4a;
+opacity: 0.1;
+}
