@@ -2,3 +2,15 @@
 list-style-type: none;
 margin: 0;
 }
+
+.message {
+padding: 1.5rem 0;
+border-bottom: 1px solid #ccc;
+}
+
+.message__title {
+margin: 0;
+}
+.message__date {}
+.message__scripture {}
+.message__church {}

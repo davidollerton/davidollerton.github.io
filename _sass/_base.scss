@@ -190,3 +190,9 @@ border: -0.5px solid;
 color: #4a4a4a;
 opacity: 0.1;
 }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { min-height: 100%; }
+
+body {height: 100%; position: relative; }
