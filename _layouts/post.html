@@ -2,26 +2,33 @@
 layout: default
 ---
 
-<article class="message">
+<div class="post">
 
-  <header>
-    <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
-    <h2>{{ page.title }}</h2>
-  </header>
+  <div class="post__feature">
 
-  <section>
     <div class="player">
-
-      <audio src="http:{{ page.file }}" class="mejs-player" type="audio/mpeg"></audio>
-
+      <audio src="http:{{ page.file }}" class="mejs__player" type="audio/mpeg"></audio>
     </div>
-    <div class="description">{{ page.summary }}</div>
-    <div class="scripture">{{ page.scripture }}</div>
 
-  </section>
+  </div>
 
-  <footer>
-    <a class="" href="http:{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>Download MP3</a>
-  </footer>
+  <div class="post__body container">
+    <header>
 
-</article>
+      <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+      <h2>{{ page.title }}</h2>
+    </header>
+
+    <section>
+
+      <div class="description">{{ page.summary }}</div>
+      <div class="scripture">{{ page.scripture }}</div>
+
+    </section>
+
+    <footer>
+      <a class="" href="http:{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>Download MP3</a>
+    </footer>
+  </div>
+
+</div>
