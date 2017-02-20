@@ -4,31 +4,36 @@ layout: default
 
 <div class="post">
 
-  <div class="post__feature">
+  {% if page.file %}
+    <div class="post__feature">
 
-    <div class="player">
-      <audio src="http:{{ page.file }}" class="mejs__player" type="audio/mpeg"></audio>
+      <div class="audio-player">
+        <div class="audio-player__title">{{ page.title }}</div>
+        <audio src="http:{{ page.file }}" class="mejs__player" type="audio/mpeg" width="100%"></audio>
+      </div>
+
     </div>
+  {% endif %}
 
-  </div>
 
   <div class="post__body container">
-    <header>
 
-      <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
-      <h2>{{ page.title }}</h2>
+    <header>
+      <time class="post__date" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+      <h2 class="post__title">{{ page.title }}</h2>
     </header>
 
     <section>
-
       <div class="description">{{ page.summary }}</div>
       <div class="scripture">{{ page.scripture }}</div>
-
     </section>
 
     <footer>
+      {% if page.file %}
       <a class="" href="http:{{ page.file }}" length="{{ page.length }}" type="audio/mp3"/>Download MP3</a>
+      {% endif %}
     </footer>
+
   </div>
 
 </div>

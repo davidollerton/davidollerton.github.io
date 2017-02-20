@@ -2,15 +2,29 @@
 background: rgba(255,255,255, 1);
 }
 
-.post__body {}
+.post__body {
+padding: 2rem 0;
+}
+
 .post__feature {
-  background: #000;
-  padding: 2rem 0;
+background: #000;
+padding: 2rem 0;
 }
 
 .post__title {
 margin: 0;
+text-align: center;
+font-size: 3rem;
 }
-.post__date {}
+
+.post__date {
+text-align: center;
+display: block;
+margin-bottom: 0;
+text-transform: uppercase;
+font-size: 0.75rem;
+color: #999999;
+}
+
 .post__scripture {}
 .post__church {}
