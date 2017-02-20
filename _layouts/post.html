@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article>
+<article class="message">
 
   <header>
     <time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
@@ -10,8 +10,14 @@ layout: default
   </header>
 
   <section>
-    <div class="player"></div>
+    <div class="player">
+
+      <audio src="http:{{ page.file }}" class="mejs-player" type="audio/mpeg"></audio>
+
+    </div>
     <div class="description">{{ page.summary }}</div>
+    <div class="scripture">{{ page.scripture }}</div>
+
   </section>
 
   <footer>

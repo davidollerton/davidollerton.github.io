@@ -8,18 +8,20 @@ title: Homepage
 	{% for post in site.posts %}
 	<li>
 		<article class="message">
-			<time class="message__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B, %Y" }}</time>
 			<h2 class="message__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+			{% if post.series %}
+			<h3 class="message__series"><a href="{{ post.url }}">{{ post.series }}</a></h3>
+			{% endif %}
+
+			<time class="message__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+
 			{% if post.scripture %}
 			<div class="message__scripture">
 				{{ post.scripture }}
 			</div>
 			{% endif %}
-			{% if post.church %}
-			<div class="message__church">
-				{{ post.church }}
-			</div>
-			{% endif %}
+
 		</article>
 	{% endfor %}
 	</li>
