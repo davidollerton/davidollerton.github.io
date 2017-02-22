@@ -2,11 +2,19 @@
   color: #fff;
   text-align: center;
 }
+.audio-player {
 
-.mejs__container {
+  .mejs__container {
   max-width: 720px;
   margin: 0 auto;
-}
-.mejs__horizontal-volume-slider {
+  }
+
+  .mejs__horizontal-volume-slider {
   background: none;
+  }
+
+  .mejs__controls:not([style*="display: none"]) {
+  background: #222;
+  }
+
 }
