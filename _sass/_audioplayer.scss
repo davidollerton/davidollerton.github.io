@@ -1,6 +1,17 @@
-.audio-player__title {
+.audio-player__title,
+.audio-player__date {
   color: #fff;
   text-align: center;
+}
+
+.audio-player__date {
+  text-align: center;
+  display: block;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #999999;
+  margin-bottom: 1.5em;
 }
 .audio-player {
 

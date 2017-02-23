@@ -1,7 +1,6 @@
 ---
-title: "None"
-date: 2013-01-09
-scripture: "2 Corinthians"
+title: "How do we stand confident?"
+scripture: "2 Corinthians 1"
 church: Lisvane Baptist Church, Cardiff
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2013/01-09-2013.mp3
 excerpt: ""
