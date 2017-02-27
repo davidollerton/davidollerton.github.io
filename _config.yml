@@ -8,3 +8,6 @@ lang:           your-language-code
 author:         David Ollerton
 copyright:      "&#x2117; &amp; &#xA9; 2017"
 keywords:
+
+
+paginate: 5

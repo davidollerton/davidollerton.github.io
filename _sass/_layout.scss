@@ -1,4 +1,29 @@
 .container {
-  max-width: 720px;
-  margin: 0 auto;
+max-width: 720px;
+margin: 0 auto;
+}
+
+
+.section--posts {
+margin-bottom: 1.5em;
+background: #fff;
+border: 1px solid #dadada;
+padding: 1em;
+border-radius: 2px;
+
+  @include medium {
+  display: table;
+  width: 100%;
+
+    .section__main,
+    .section__header {
+    display: table-cell;}
+
+    .section__header {
+    width: 30%;
+    color: #777;
+    }
+
+  }
+
 }
