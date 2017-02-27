@@ -38,7 +38,7 @@
         <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
         <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-        <itunes:image href="{{ site.url }}/images/itunes.png" />
+        <itunes:image href="{{ site.url }}/images/itunes.jpg" />
         <enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
