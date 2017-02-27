@@ -27,7 +27,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/images/itunes.png" />
+		<itunes:image href="{{ site.url }}/images/itunes.jpg" />
     <itunes:category text="Religion &amp; Spirituality">
     	<itunes:category text="Christianity" />
     </itunes:category>
