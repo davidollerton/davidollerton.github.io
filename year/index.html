@@ -21,7 +21,7 @@ title: Sermons by year
         {% assign year = this_year %}
       {% endif %}
 
-        <article class="item item--post">
+        <article>
           <time class="message__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B, %Y" }}</time>
           <h2 class="message__title"><a class="message__link" href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
           {% if post.scripture %}

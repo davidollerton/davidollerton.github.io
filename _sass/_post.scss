@@ -1,14 +1,14 @@
 .post {
-background: rgba(255,255,255, 1);
-border-bottom: 1px solid #dadada; 
+background: rgba($white, 1);
+border-bottom: 1px solid $bordercolor;
 }
 
 .post__body {
-padding: 2rem 0;
+padding: 2rem 1.5rem;
 }
 
 .post__feature {
-background: #222;
+background: $mineshaft;
 padding: 2rem 0;
 }
 
@@ -24,8 +24,5 @@ display: block;
 margin-bottom: 0;
 text-transform: uppercase;
 font-size: 0.75rem;
-color: #999999;
+color: $lighttextcolor;
 }
-
-.post__scripture {}
-.post__church {}

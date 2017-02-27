@@ -3,3 +3,64 @@
   ul {list-style-type: none; margin: 0; padding: 0;}
   li { display: inline-block; margin-right: 0.5rem;}
 }
+
+
+.item-pagination {
+@include clearfix;
+text-align: center;
+padding: 1em 0;
+
+  @include medium {
+  padding: 1em 46px;
+  }
+
+  a,
+  a:focus {
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  }
+
+  .item-pagination__pager {
+  display: none;
+  padding: 0.5em 1em;
+
+    @include medium {
+    display: inline-block;
+    margin: 0 1em;
+    }
+
+  }
+
+  .item-pagination__next,
+  .item-pagination__previous {
+  padding: 0.5em 1em;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid $bordercolor;
+  }
+
+  .item-pagination__previous {
+  margin-left: 1em;
+  float: left;
+
+    @include medium {
+    float: none;
+    }
+
+  }
+
+  .item-pagination__next {
+  margin-right: 1em;
+  float: right;
+
+    @include medium {
+    float: none;
+    }
+  }
+
+  .item-pagination__disabled {
+    color: rgba($textcolor, 0.5);
+    pointer-events: none;
+  }
+}

@@ -14,7 +14,16 @@ margin-bottom: 0.5em;
 }
 
 .header__description {
-  margin: 0;
+margin: 0;
+
+  @include medium {
+  padding: 0 0.5rem;
+  }
+
+  @include large {
+  padding: 0 2rem;
+  }
+
 }
 
 
