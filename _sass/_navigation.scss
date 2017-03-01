@@ -64,3 +64,41 @@ padding: 1em 0;
     pointer-events: none;
   }
 }
+
+.tag-navigation {
+background: #222;
+padding: 1em;
+}
+
+.secondary-nav {
+display: block;
+margin: 0 auto;
+text-align: center;
+padding: 0;
+
+  li {
+  display: inline-block;
+
+    a {
+    display: block;
+    background: #3e3e3e;
+    color: $white;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    border-radius: 2em;
+
+      &:hover {
+      background: $deepblue;
+      }
+
+      .active {
+        background: $deepblue;
+      }
+
+    }
+
+
+
+  }
+
+}
