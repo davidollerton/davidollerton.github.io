@@ -1,7 +1,7 @@
 ---
 title: "New Life: resurrected with Christ"
 scripture: "Ephesians 2:1-10"
-church: Thornhill Church, Cardiff
+church: thornhill
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2014/28-09-2014.mp3
 excerpt: ""
 summary: ""

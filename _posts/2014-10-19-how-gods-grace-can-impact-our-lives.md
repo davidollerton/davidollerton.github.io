@@ -1,7 +1,7 @@
 ---
 title: "How God's grace can impact our lives"
 scripture: "Philemon"
-church: Lisvane Baptist Church, Cardiff
+church: lisvane
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2014/19-10-2014.mp3
 excerpt: ""
 summary: ""

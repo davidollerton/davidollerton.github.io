@@ -1,7 +1,7 @@
 ---
 title: "The Risen King"
 scripture: "John 20"
-church: Thornhill Church, Cardiff
+church: thornhill
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2016/27-03-2016.mp3
 excerpt: ""
 summary: ""

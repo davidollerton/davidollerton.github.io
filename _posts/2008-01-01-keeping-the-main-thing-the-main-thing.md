@@ -1,7 +1,7 @@
 ---
 title: "Keeping the main thing, the main thing"
 scripture: ""
-church: Light & Life, Penzance
+church: penzance
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2008/01-01-2008.mp3
 excerpt: ""
 summary: ""

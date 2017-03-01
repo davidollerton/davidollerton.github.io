@@ -1,0 +1,34 @@
+{
+  "lisvane": {
+    "name": "Lisvane Baptist Church, Cardiff",
+    "website": "https://www.lisvanebaptist.org/"
+  },
+  "thornhill": {
+    "name": "Thornhill Church, Cardiff",
+    "website": "http://www.thornhillchurch.org.uk/"
+  },
+  "hillcity":{
+    "name": "Hill City Church, Trevethin",
+    "website": "http://www.hillcitychurch.org/"
+  },
+  "gilgal":{
+    "name": "Gilgal Baptist Church, Porthcawl",
+    "website": "http://gilgalbaptistchurch.co.uk/"
+  },
+  "staustell":{
+    "name": "Light & Life, St Austell",
+    "website": "http://lightandlife.co.uk/staustell/"
+  },
+  "penzance":{
+    "name": "Light & Life, Penzance",
+    "website": "http://lightandlife.co.uk/penzance/"
+  },
+  "hope":{
+    "name": "Hope Church, Rhondda",
+    "website": "http://hopechurchrhondda.org.uk/"
+  },
+  "grace":{
+    "name": "Grace Community Church, Porthcawl",
+    "website": "https://gccporthcawl.org/"
+  }
+}

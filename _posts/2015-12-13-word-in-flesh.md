@@ -1,7 +1,7 @@
 ---
 title: "Word in flesh"
 scripture: "John 1:14-18"
-church: Thornhill Church, Cardiff
+church: thornhill
 file: //sermons.davidollerton.org.s3.amazonaws.com/data/2015/13-12-2015.mp3
 excerpt: ""
 summary: ""
