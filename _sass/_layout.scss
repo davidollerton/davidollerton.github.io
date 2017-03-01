@@ -3,42 +3,43 @@ max-width: 800px;
 margin: 0 auto;
 }
 
+.section__header {
+  h1 {margin-bottom: 0.75em;}
+}
 
-.section--posts {
+.section--year {
 margin-bottom: 1.5em;
-background: #fff;
-border: 1px solid #dadada;
+background: $white;
+border: 1px solid $bordercolor;
 padding: 1em;
 border-radius: 2px;
 
 
-  .section__main {
+   .item {
+   margin-bottom: 1.5em;
+   border: 0;
+   border-left: 5px solid $bordercolor;
+   padding: 1em;
 
-     article {
-     margin-bottom: 1.5em;
-     border-left: 5px solid $bordercolor;
-     padding-left: 1em;
-
-       &:last-child {
-       margin-bottom: 0;
-       }
-
+     &:last-child {
+     margin-bottom: 0;
      }
 
-  }
+   }
+
 
   @include medium {
   display: table;
   width: 100%;
 
-    .section__main,
+    .items,
     .section__header {
     display: table-cell;
     vertical-align: top;}
 
     .section__header {
     width: 30%;
-    color: #777;
+    color: $lighttextcolor;
     }
 
   }

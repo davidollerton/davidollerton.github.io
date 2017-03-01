@@ -1,7 +1,16 @@
-.navigation {
+.header-navigation {
 
-  ul {list-style-type: none; margin: 0; padding: 0;}
-  li { display: inline-block; margin-right: 0.5rem;}
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  }
+
 }
 
 
@@ -57,16 +66,18 @@ padding: 1em 0;
     @include medium {
     float: none;
     }
+
   }
 
   .item-pagination__disabled {
-    color: rgba($textcolor, 0.5);
-    pointer-events: none;
+  color: rgba($textcolor, 0.5);
+  pointer-events: none;
   }
+
 }
 
 .tag-navigation {
-background: #282828;
+background: lighten($mineshaft, 3%);
 padding: 1em;
 }
 
@@ -81,7 +92,7 @@ padding: 0;
 
     a {
     display: block;
-    background: #3e3e3e;
+    background: lighten($mineshaft, 15%);
     color: $white;
     text-decoration: none;
     padding: 0.5em 0.75em;
@@ -91,8 +102,8 @@ padding: 0;
       background: $deepblue;
       }
 
-      .active {
-        background: $deepblue;
+      &.active {
+      background: $deepblue;
       }
 
     }
