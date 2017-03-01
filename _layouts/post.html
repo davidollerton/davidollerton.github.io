@@ -8,7 +8,7 @@ layout: default
     <div class="post__feature">
 
       <div class="audio-player">
-        <time class="audio-player__date" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+        <time class="audio-player__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
         <div class="audio-player__title">{{ page.title }}</div>
         <audio src="http:{{ page.file }}" class="mejs__player" width="100%"></audio>
       </div>
