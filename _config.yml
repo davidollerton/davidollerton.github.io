@@ -11,3 +11,7 @@ keywords:
 
 # Pagination settings
 paginate: 10
+
+# SCSS Output
+sass:
+  style: :compressed
