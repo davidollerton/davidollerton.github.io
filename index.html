@@ -5,9 +5,9 @@ title: Homepage
 
 <section class="page container">
   <header class="page__header">
-		<h1 class="page__title">
+		<h2 class="page__title">
 			All {% include post-count.html %} Messages
-		</h1>
+		</h2>
 	</header>
 
 </section>
@@ -48,7 +48,7 @@ title: Homepage
 	</ol>
 
 	<!-- Pagination links -->
-	<nav role="navigation" class="item-pagination">
+	<nav class="item-pagination">
 
 		{% if paginator.previous_page %}
 		  <a href="{{ paginator.previous_page_path }}" class="item-pagination__previous">Prev</a>
