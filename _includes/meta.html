@@ -34,9 +34,9 @@
 {% endif %}
 
 {% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
+  <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
 {% else %}
-  <meta content="/images/itunes.png" property="og:image">
+  <meta content="{{ site.url }}/images/itunes.png" property="og:image">
 {% endif %}
 
 {% if page.categories %}
