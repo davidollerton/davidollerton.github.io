@@ -15,3 +15,7 @@ paginate: 10
 # SCSS Output
 sass:
   style: :compressed
+  
+# Additional Jekyll Support
+gems:
+  - jekyll-sitemap

@@ -3,6 +3,7 @@ layout: page
 title: Messages by year
 ---
 {% assign posts = site.posts | sort:"date" %}
+
 {% for post in posts reversed %}
   {% assign this_year = post.date | date:"%Y" %}
 
