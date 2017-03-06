@@ -26,3 +26,19 @@ color: $lighttextcolor;
 .item__scripture {
   margin-bottom: 0.25em;
 }
+
+.item-meta {
+display: block;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 1.6em;
+
+  li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 0.5em;
+
+  &:last-child { margin-right: 0;}
+  }
+
+}

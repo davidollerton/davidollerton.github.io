@@ -1,5 +1,5 @@
 $("#btn").click(function() {
-    reference='John+8:12-59'
+    reference='{{ page.scripture }}'
     $.getJSON('http://www.esvapi.org/crossref/ref.php?reference=' + reference + '&callback=?',
         function(text){
             if(text){
