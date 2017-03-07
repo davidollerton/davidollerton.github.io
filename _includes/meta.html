@@ -21,7 +21,7 @@
 {% if page.description %}
   <meta content="{{ page.description }}" property="og:description">
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{ site.description | markdownify | strip_html | xml_escape }}" property="og:description">
 {% endif %}
 
 {% if page.url %}

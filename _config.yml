@@ -1,9 +1,9 @@
 # Podcast Feed Settings
 title:          Sermons by David Ollerton
-email:          sermons@davidollerton.org
-description:    "your-podcast-description"
-subtitle:       "your-podcast-subtitle"
-url:            http://davidollerton.github.io
+email:          sermons@davidollerton.wales
+description:    David is a Welsh-speaking Lancastrian who maintains his childhood loyalty to English rugby and Manchester United. He is married to Liz, has two daughters and a son, and six grandchildren. With them, he walks up mountains… a pleasure that he is passing down the family’s genes. He also works with [Waleswide/Cymrugyfan](http://www.waleswide.org/), a church planting, strengthening and training network.
+subtitle:       "A collection of David's sermons from his 'x' years of ministry"
+url:            http://davidollerton.wales
 lang:           en-GB
 author:         David Ollerton
 copyright:      "&#x2117; &amp; &#xA9; 2017"
@@ -15,7 +15,7 @@ paginate: 10
 # SCSS Output
 sass:
   style: :compressed
-  
+
 # Additional Jekyll Support
 gems:
   - jekyll-sitemap
