@@ -26,24 +26,24 @@ layout: compress
     {% include google-analytics.html %}
 
     <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/mediaelement/3.2.3/mediaelement-and-player.min.js"></script>
-    <script src="{{ site.baseurl }}/js/audio-analytics.js"></script>
 
     {% if page.scripture %}
-      <script>
+    <script src="https://cdn.jsdelivr.net/mediaelement/3.2.3/mediaelement-and-player.min.js" defer></script>
+    <script src="{{ site.baseurl }}/js/audio-analytics.js" defer></script>
+    <script>
 
-      var reference = '{{ page.scripture }}';
+    var reference = '{{ page.scripture }}';
 
-      $.getJSON('http://www.esvapi.org/crossref/ref.php?reference=' + reference + '&callback=?',
-        function(text){
-          if(text){
-            $('.item__esvtext').html(text.content);
-          } else {
-            $('.item__esvtext').html('Error');
-          }
-        });
+    $.getJSON('http://www.esvapi.org/crossref/ref.php?reference=' + reference + '&callback=?',
+      function(text){
+        if(text){
+          $('.item__esvtext').html(text.content);
+        } else {
+          $('.item__esvtext').html('Error');
+        }
+      });
 
-      </script>
+    </script>
     {% endif %}
 
   </body>
