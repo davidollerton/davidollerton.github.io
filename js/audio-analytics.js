@@ -1,4 +1,3 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
 'use strict';
 
 /**
@@ -9,62 +8,77 @@
  * @see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
  */
 
-// Feature configuration
 
+// Feature configuration
 Object.assign(mejs.MepDefaults, {
 	/**
-  * @type {String}
-  */
-	googleAnalyticsTitle: 'Podcast',
+	 * @type {String}
+	 */
+	googleAnalyticsTitle: '',
 	/**
-  * @type {String}
-  */
+	 * @type {String}
+	 */
 	googleAnalyticsCategory: 'Audio',
 	/**
-  * @type {String}
-  */
+	 * @type {String}
+	 */
 	googleAnalyticsEventPlay: 'Play',
 	/**
-  * @type {String}
-  */
+	 * @type {String}
+	 */
 	googleAnalyticsEventPause: 'Pause',
 	/**
-  * @type {String}
-  */
-	googleAnalyticsEventEnded: 'Ended'
+	 * @type {String}
+	 */
+	googleAnalyticsEventEnded: 'Ended',
+	/**
+	 * @type {String}
+	 */
+	googleAnalyticsEventTime: 'Time'
 });
+
 
 Object.assign(MediaElementPlayer.prototype, {
 
 	/**
-  * Feature constructor.
-  *
-  * Always has to be prefixed with `build` and the name that will be used in MepDefaults.features list
-  * @param {MediaElementPlayer} player
-  * @param {$} controls
-  * @param {$} layers
-  * @param {HTMLElement} media
-  */
-	buildgoogleanalytics: function buildgoogleanalytics(player, controls, layers, media) {
+	 * Feature constructor.
+	 *
+	 * Always has to be prefixed with `build` and the name that will be used in MepDefaults.features list
+	 * @param {MediaElementPlayer} player
+	 * @param {$} controls
+	 * @param {$} layers
+	 * @param {HTMLElement} media
+	 */
+	buildgoogleanalytics: function (player, controls, layers, media)  {
 
-		media.addEventListener('play', function () {
+		media.addEventListener('play', () => {
 			if (typeof ga !== 'undefined') {
-				ga('send', 'event', player.options.googleAnalyticsCategory, player.options.googleAnalyticsEventPlay, player.options.googleAnalyticsTitle === '' ? player.media.currentSrc : player.options.googleAnalyticsTitle);
+				ga('send', 'event',
+					player.options.googleAnalyticsCategory,
+					player.options.googleAnalyticsEventPlay,
+					(player.options.googleAnalyticsTitle === '') ? player.media.currentSrc : player.options.googleAnalyticsTitle
+				);
 			}
 		}, false);
 
-		media.addEventListener('pause', function () {
+		media.addEventListener('pause', () => {
 			if (typeof ga !== 'undefined') {
-				ga('send', 'event', player.options.googleAnalyticsCategory, player.options.googleAnalyticsEventPause, player.options.googleAnalyticsTitle === '' ? player.media.currentSrc : player.options.googleAnalyticsTitle);
+				ga('send', 'event',
+					player.options.googleAnalyticsCategory,
+					player.options.googleAnalyticsEventPause,
+					(player.options.googleAnalyticsTitle === '') ? player.media.currentSrc : player.options.googleAnalyticsTitle
+				);
 			}
 		}, false);
 
-		media.addEventListener('ended', function () {
+		media.addEventListener('ended', () => {
 			if (typeof ga !== 'undefined') {
-				ga('send', 'event', player.options.googleAnalyticsCategory, player.options.googleAnalyticsEventEnded, player.options.googleAnalyticsTitle === '' ? player.media.currentSrc : player.options.googleAnalyticsTitle);
+				ga('send', 'event',
+					player.options.googleAnalyticsCategory,
+					player.options.googleAnalyticsEventEnded,
+					(player.options.googleAnalyticsTitle === '') ? player.media.currentSrc : player.options.googleAnalyticsTitle
+				);
 			}
 		}, false);
 	}
 });
-
-},{}]},{},[1]);

@@ -11,10 +11,9 @@ layout: compress
 
     {% include meta.html %}
 
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 
   </head>
 
@@ -29,19 +28,23 @@ layout: compress
     <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/mediaelement/3.2.3/mediaelement-and-player.min.js"></script>
     <script src="{{ site.baseurl }}/js/audio-analytics.js"></script>
-    <script>
 
-    var reference = '{{ page.scripture }}';
+    {% if page.scripture %}
+      <script>
 
-    $.getJSON('http://www.esvapi.org/crossref/ref.php?reference=' + reference + '&callback=?',
-      function(text){
-        if(text){
-          $('.item__esvtext').html(text.content);
-        } else {
-          $('.item__esvtext').html('Error');
-        }
-      });
+      var reference = '{{ page.scripture }}';
 
-    </script>
+      $.getJSON('http://www.esvapi.org/crossref/ref.php?reference=' + reference + '&callback=?',
+        function(text){
+          if(text){
+            $('.item__esvtext').html(text.content);
+          } else {
+            $('.item__esvtext').html('Error');
+          }
+        });
+
+      </script>
+    {% endif %}
+
   </body>
 </html>
