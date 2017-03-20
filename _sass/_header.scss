@@ -13,6 +13,16 @@ margin-top: 0;
 margin-bottom: 0.5em;
 }
 
+.header__subtitle {
+text-transform: uppercase;
+font-size: 1.25rem;
+font-style: italic;
+line-height: 1;
+margin-top: 0;
+margin-bottom: 0.5em;
+color: $lighttextcolor;
+}
+
 .header__description {
 margin: 0;
 
