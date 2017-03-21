@@ -14,6 +14,7 @@
 
 {% if page.title %}
   <meta content="article" property="og:type">
+  <meta content="{{ site.author }}" property="article:author">
 {% else %}
   <meta content="website" property="og:type">
 {% endif %}
@@ -30,7 +31,6 @@
 
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.author }}" property="article:author">
 {% endif %}
 
 {% if page.image %}
