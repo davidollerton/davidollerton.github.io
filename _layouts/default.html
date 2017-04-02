@@ -30,6 +30,7 @@ layout: compress
     {% if page.scripture %}
     <script src="https://cdn.jsdelivr.net/mediaelement/3.2.3/mediaelement-and-player.min.js" defer></script>
     <script src="{{ site.baseurl }}/js/audio-analytics.js" defer></script>
+
     <script>
 
     var reference = '{{ page.scripture }}';
@@ -45,6 +46,12 @@ layout: compress
 
     </script>
     {% endif %}
+
+    <script src="https://cdn.jsdelivr.net/fitvids/1.1.0/jquery.fitvids.js"></script>    <script>
+    $(document).ready(function(){
+      $(".page").fitVids();
+    });
+    </script>
 
   </body>
 </html>

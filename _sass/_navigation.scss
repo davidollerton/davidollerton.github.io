@@ -77,8 +77,7 @@ padding: 1em 0;
 }
 
 .tag-navigation {
-background: lighten($mineshaft, 3%);
-padding: 1em;
+  border-bottom: 1px solid #dadada;
 }
 
 .secondary-nav {
@@ -92,18 +91,19 @@ padding: 0;
 
     a {
     display: block;
-    background: lighten($mineshaft, 15%);
-    color: $white;
     text-decoration: none;
     padding: 0.5em 0.75em;
-    border-radius: 2em;
+    background: none;
+    transition: border-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+
 
       &:hover {
-      background: $deepblue;
+      border-color: $deepblue;
       }
 
       &.active {
-      background: $deepblue;
+      border-color: $deepblue;
       }
 
     }
