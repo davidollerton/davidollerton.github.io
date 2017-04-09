@@ -44,3 +44,12 @@ width: 240px;
 height: auto;
 margin-bottom: 1.5rem;
 }
+
+
+.header-tg {
+  min-height: 340px;
+  background-size: cover;
+  will-change: transform; // creates a new paint layer
+  z-index: -1;
+  background-position: right top;
+}

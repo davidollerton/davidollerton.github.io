@@ -12,3 +12,27 @@ text-transform: uppercase;
 .fluid-width-video-wrapper {
   margin-bottom: 1.5em
 }
+
+.tg__title,
+.tg__subtitle {
+font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.tg__title {
+font-size: 1em;
+
+  span {
+  font-size: 2.4em;
+  display: block;
+  }
+
+}
+
+.tg__subtitle {
+text-align: center;
+margin-top: 0;
+
+sup {
+  font-size: 0.5em;
+}
+}

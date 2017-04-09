@@ -1,0 +1,47 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en-gb" class="no-js">
+  <head>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/ico"/>
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/icons/apple-touch-icon-192x192.png" type="image/png"/>
+    <link rel="mask-icon" href="{{ site.baseurl }}/images/icons/icon.svg" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %} {{ site.title }}</title>
+
+  </head>
+
+  <body id="top">
+
+    {% include post-navigation.html %}
+
+    <div class="header-tg" style="background-image: url('{{ site.baseurl }}/images/do-thanksgiving-service.jpg')"></div>
+
+    <section class="page container">
+      <header class="page__header" >
+        <h2 class="tg__title">Thankgiving service for the life of <span>David Ollerton</span></h2>
+        <h3 class="tg__subtitle">8<sup>th</sup> January 1980 - 18<sup>th</sup> March 2017</h3>
+      </header>
+      {{ page.content | markdownify }}
+    </section>
+
+    {% include footer.html %}
+
+    {% include google-analytics.html %}
+
+    <script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/fitvids/1.1.0/jquery.fitvids.js"></script>    <script>
+    $(document).ready(function(){
+      $(".page").fitVids();
+    });
+    </script>
+
+  </body>
+</html>
