@@ -13,6 +13,10 @@ text-transform: uppercase;
   margin-bottom: 1.5em
 }
 
+.tg-header {
+margin-bottom: 0;
+}
+
 .tg__title,
 .tg__subtitle {
 font-family: Georgia, Times, "Times New Roman", serif;
@@ -35,4 +39,9 @@ margin-top: 0;
 sup {
   font-size: 0.5em;
 }
+}
+
+
+.align-center {
+  text-align: center;
 }
