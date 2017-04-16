@@ -30,5 +30,9 @@
   "grace":{
     "name": "Grace Community Church, Porthcawl",
     "website": "https://gccporthcawl.org/"
+  },
+  "esher":{
+    "name": "Esher Green Baptist Church, Surrey",
+    "website": "http://www.esherchurch.org/"
   }
 }
