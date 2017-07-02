@@ -34,5 +34,9 @@
   "esher":{
     "name": "Esher Green Baptist Church, Surrey",
     "website": "http://www.esherchurch.org/"
+  },
+  "rbc":{
+    "name": "Rhiwbina Baptist Church, Cardiff",
+    "website": "http://www.rbc.ac/"
   }
 }
