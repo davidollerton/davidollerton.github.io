@@ -7,5 +7,5 @@ excerpt: ""
 summary: ""
 duration: "31:18"
 length: "43360271"
-category: "Church leadership"
+category: "church-leadership"
 ---

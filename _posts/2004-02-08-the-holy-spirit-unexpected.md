@@ -7,5 +7,5 @@ excerpt: ""
 summary: ""
 duration: "34:13"
 length: "53650523"
-category: "Holy Spirit"
+category: "holy-spirit"
 ---
