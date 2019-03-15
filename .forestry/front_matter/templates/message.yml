@@ -50,4 +50,5 @@ fields:
     date_format: DD/MM/YYYY
     required: true
 pages:
+- _posts/2015-02-15-none.md
 - _posts/2007-03-29-suffering.md
