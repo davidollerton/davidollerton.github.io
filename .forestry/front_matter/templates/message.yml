@@ -42,5 +42,12 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: datetime
+  name: date
+  label: Date
+  description: Date the message was preached
+  config:
+    date_format: DD/MM/YYYY
+    required: true
 pages:
 - _posts/2007-03-29-suffering.md
