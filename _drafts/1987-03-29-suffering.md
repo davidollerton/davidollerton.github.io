@@ -7,6 +7,6 @@ excerpt: ''
 summary: ''
 duration: ''
 length: ''
-date: 1987-03-29 07:43:11 +0000
+date: 1987-03-29T07:43:11.000+00:00
 
 ---

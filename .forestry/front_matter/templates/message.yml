@@ -50,7 +50,7 @@ fields:
     date_format: DD/MM/YYYY
     required: true
 pages:
-- _posts/2007-03-29-suffering.md
+- _posts/1987-03-29-suffering.md
 - _posts/change.md
 - _posts/prepare-your-mind-for-action.md
 - _posts/purify-yourself.md
