@@ -1,0 +1,12 @@
+---
+title: Get moving
+scripture: 1 Timothy 6:11-16
+church: esher
+file: ''
+excerpt: ''
+summary: ''
+duration: '34:00'
+length: "48961459"
+date: 1988-07-02 23:00:00 +0000
+
+---
