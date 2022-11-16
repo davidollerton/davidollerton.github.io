@@ -2,7 +2,7 @@
 title: Practical help
 scripture: 1 Timothy 5
 church: esher
-file: ''
+file: "//sermons.davidollerton.org.s3.amazonaws.com/data/1988/1988-06-19.mp3"
 excerpt: ''
 summary: ''
 duration: '45:57'
