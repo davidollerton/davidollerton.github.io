@@ -2,7 +2,7 @@
 title: Get moving
 scripture: 1 Timothy 6:11-16
 church: esher
-file: ''
+file: "//sermons.davidollerton.org.s3.amazonaws.com/data/1988/1988-07-03.mp3"
 excerpt: ''
 summary: ''
 duration: '34:00'
