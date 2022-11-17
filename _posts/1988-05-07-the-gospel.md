@@ -2,7 +2,7 @@
 title: The Gospel
 scripture: 1 Timothy 2
 church: esher
-file: "//sermons.davidollerton.org.s3.amazonaws.com/data/1988/1988-05-08.mp3"
+file: /1988/1988-05-08.mp3
 excerpt: ''
 summary: ''
 duration: '40:21'

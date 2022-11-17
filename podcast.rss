@@ -39,7 +39,7 @@
       <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
       <itunes:summary>{{ post.scripture | xml_escape }}</itunes:summary>
       <itunes:image href="{{ site.url }}/images/itunes.jpg" />
-      <enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+      <enclosure url="https://sermons.davidollerton.org.s3.amazonaws.com/data{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <itunes:duration>{{ post.duration }}</itunes:duration>

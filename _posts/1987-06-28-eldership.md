@@ -2,7 +2,7 @@
 title: "Eldership"
 scripture: "1 Peter 5:1-5"
 church: esher
-file: //sermons.davidollerton.org.s3.amazonaws.com/data/1987/28-06-1987.mp3
+file: /1987/28-06-1987.mp3
 excerpt: ""
 summary: ""
 duration: "31:18"

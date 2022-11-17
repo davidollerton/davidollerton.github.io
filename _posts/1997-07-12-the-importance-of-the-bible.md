@@ -2,7 +2,7 @@
 title: The Importance of the Bible
 scripture: Ephesians 6:4
 church: esher
-file: "//sermons.davidollerton.org.s3.amazonaws.com/data/1997/1997-07-13.mp3"
+file: /1997/1997-07-13.mp3
 excerpt: ''
 summary: ''
 duration: '26:51'
