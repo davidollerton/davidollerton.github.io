@@ -7,6 +7,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: series
+  type: text
+  config:
+    required: false
+  label: Series
 - name: scripture
   label: Scripture
   type: text
