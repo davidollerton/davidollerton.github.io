@@ -1,6 +1,11 @@
 <article class="item">
   <time class="item__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
   <h3 class="item__title"><a class="item__link" href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+   {% if post.series %}
+  <div class="item__scripture">
+    {{ post.series }}
+  </div>
+  {% endif %}
   {% if post.scripture %}
   <div class="item__scripture">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
