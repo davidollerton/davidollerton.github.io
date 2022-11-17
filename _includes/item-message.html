@@ -2,7 +2,7 @@
   <time class="item__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
   <h3 class="item__title"><a class="item__link" href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
    {% if post.series %}
-  <div class="item__scripture">
+  <div class="item__series">
     {{ post.series }}
   </div>
   {% endif %}
