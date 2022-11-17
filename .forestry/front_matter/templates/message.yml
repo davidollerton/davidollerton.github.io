@@ -43,10 +43,11 @@ fields:
   hidden: false
   default: ''
 - name: length
-  label: Length
+  label: Filesize
   type: text
   hidden: false
   default: ''
+  description: CMD-I in Mac OS Finder, copy and paste filesize without commas.
 - type: datetime
   name: date
   label: Date
@@ -67,8 +68,8 @@ pages:
 - _posts/1997-07-26-the-living-oracle.md
 - _posts/1997-08-02-inspired-and-inspiring.md
 - _posts/1997-08-09-the-way-to-the-good-life.md
+- _posts/1997-08-30-accepting-the-bibles-authority.md
 - _posts/2002-01-06-baptism-of-the-spirit-part-2.md
-- _posts/accepting-the-bibles-authority.md
 - _posts/baptism-of-the-spirit-part-1.md
 - _posts/change.md
 - _posts/prepare-your-mind-for-action.md
