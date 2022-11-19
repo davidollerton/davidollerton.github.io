@@ -8,8 +8,10 @@ sections:
   label: Pages
   create: all
 - type: jekyll-posts
-  label: Posts
-  create: all
+  label: Sermons
+  create: documents
+  templates:
+  - message
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
