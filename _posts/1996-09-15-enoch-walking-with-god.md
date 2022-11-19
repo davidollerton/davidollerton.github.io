@@ -1,5 +1,5 @@
 ---
-title: Enoch- Walking with God
+title: Enoch - Walking with God
 series: The Presence of God
 scripture: Genesis 5:18-24
 church: esher
