@@ -57,7 +57,6 @@ fields:
     required: true
     display_utc: true
 pages:
-- _posts/10of11-tasting-heaven.md
 - _posts/1987-03-29-suffering.md
 - _posts/1988-04-16-growing-with-christ.md
 - _posts/1988-04-23-we-are-sinners.md
@@ -73,6 +72,7 @@ pages:
 - _posts/1996-10-27-6of11-knowing-god-worship.md
 - _posts/1996-11-03-7of11-giving-god-centre-place.md
 - _posts/1996-12-01-9of11-the-annointing.md
+- _posts/1996-12-08-10of11-tasting-heaven.md
 - _posts/1996-12-22-11of11-the-birth-naratives.md
 - _posts/1997-07-12-the-importance-of-the-bible.md
 - _posts/1997-07-26-the-living-oracle.md
