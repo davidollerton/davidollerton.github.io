@@ -1,5 +1,5 @@
 ---
-title: '10of11: Tasting Heaven'
+title: '10 of 11: Tasting Heaven'
 series: The Presence of God
 scripture: Hebrews 12
 church: esher
@@ -8,6 +8,6 @@ excerpt: ''
 summary: ''
 duration: '32:08'
 length: "46801431"
-date: 1996-12-08 00:00:00 +0000
+date: 1996-12-08T00:00:00.000+00:00
 
 ---

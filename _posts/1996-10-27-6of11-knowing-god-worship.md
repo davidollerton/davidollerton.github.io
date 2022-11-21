@@ -1,5 +1,5 @@
 ---
-title: '6of11: Knowing God - Worship'
+title: '6 of 11: Knowing God - Worship'
 series: The Presence of God
 scripture: 2 Chronicles 7
 church: esher
