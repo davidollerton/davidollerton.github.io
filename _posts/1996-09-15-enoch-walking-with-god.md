@@ -1,5 +1,5 @@
 ---
-title: '2of11: Enoch, walking with God'
+title: '2 of 11: Enoch, walking with God'
 series: The Presence of God
 scripture: Genesis 5:18-24
 church: esher
@@ -8,6 +8,6 @@ excerpt: ''
 summary: ''
 duration: '38:12'
 length: "55527024"
-date: 1996-09-15 00:00:00 +0000
+date: 1996-09-15T00:00:00.000+00:00
 
 ---
