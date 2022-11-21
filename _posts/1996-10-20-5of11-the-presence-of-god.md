@@ -1,5 +1,5 @@
 ---
-title: '5of11: The Presence of God'
+title: '5 of 11: The Presence of God'
 series: The Presence of God
 scripture: Isaiah 6:1-8
 church: esher
@@ -8,6 +8,6 @@ excerpt: ''
 summary: ''
 duration: '38:05'
 length: "55351469"
-date: 1996-10-20 00:00:00 +0000
+date: 1996-10-20T00:00:00.000+00:00
 
 ---
