@@ -57,6 +57,7 @@ fields:
     required: true
     display_utc: true
 pages:
+- _posts/11of11-the-birth-naratives.md
 - _posts/1987-03-29-suffering.md
 - _posts/1988-04-16-growing-with-christ.md
 - _posts/1988-04-23-we-are-sinners.md
