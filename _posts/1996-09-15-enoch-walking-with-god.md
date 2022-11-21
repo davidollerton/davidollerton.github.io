@@ -1,5 +1,5 @@
 ---
-title: 2:11 - Enoch, walking with God
+title: '2of11: Enoch, walking with God'
 series: The Presence of God
 scripture: Genesis 5:18-24
 church: esher
