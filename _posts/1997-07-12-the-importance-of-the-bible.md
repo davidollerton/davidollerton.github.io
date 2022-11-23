@@ -1,5 +1,5 @@
 ---
-title: The Importance of the Bible
+title: '1 of 5: The Importance of the Bible'
 scripture: Ephesians 6:4
 church: esher
 file: "/1997/1997-07-13.mp3"
