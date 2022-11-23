@@ -1,10 +1,12 @@
 ---
-title: "Dedication to a gracious God"
-scripture: ""
+title: Dedication to a gracious God
+scripture: ''
 church: penzance
-file: /2008/28-12-2008.mp3
-excerpt: ""
-summary: ""
-duration: "32:10"
+file: "/2008/28-12-2008.mp3"
+excerpt: ''
+summary: ''
+duration: '32:10'
 length: "7725026"
+date: 2008-12-28T12:00:00+00:00
+
 ---
