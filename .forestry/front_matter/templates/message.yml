@@ -56,6 +56,7 @@ fields:
     date_format: DD/MM/YYYY
     required: true
     display_utc: true
+    export_format: YYYY-MM-DDThh:mm:ssZ
 pages:
 - _posts/1987-03-29-suffering.md
 - _posts/1988-04-16-growing-with-christ.md
