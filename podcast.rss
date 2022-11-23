@@ -28,24 +28,37 @@
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/itunes.jpg" />
-    <itunes:category text="Religion &amp; Spirituality">
-    	<itunes:category text="Christianity" />
-    </itunes:category>
+		<itunes:category text="Religion &amp; Spirituality">
+			<itunes:category text="Christianity" />
+		</itunes:category>
 		<itunes:explicit>clean</itunes:explicit>
 		{% for post in site.posts %}
 		<item>
 			<title>{{ post.title | xml_escape }}</title>
 			<itunes:author>{{ site.author }}</itunes:author>
-      <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-      <itunes:summary>{{ post.scripture | xml_escape }}</itunes:summary>
-      <itunes:image href="{{ site.url }}/images/itunes.jpg" />
-      <enclosure url="http://sermons.davidollerton.org.s3.amazonaws.com/data{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
-      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <itunes:duration>{{ post.duration }}</itunes:duration>
+			<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
+			<itunes:summary>{{ post.scripture | xml_escape }}</itunes:summary>
+			<itunes:image href="{{ site.url }}/images/itunes.jpg" />
+			<enclosure url="http://sermons.davidollerton.org.s3.amazonaws.com/data{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+			<itunes:duration>{{ post.duration }}</itunes:duration>
 			<itunes:keywords>{{ post.keywords }}</itunes:keywords>
-      <link>{{ site.url }}{{ post.url }}</link>
-			<description>{{ post.scripture | xml_escape }}</description>
+			<link>{{ site.url }}{{ post.url }}</link>
+			<description>
+			{%- if post.series.size > 1 -%}
+				This message is part of the series, {{ post.series }}. {%if item.description.size > 1 %}{{ item.description | strip_newlines | xml_escape }}{% endif %}
+				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+			{%- elsif item.description.size > 1 -%}
+			<![CDATA[
+				{{ post.description | markdownify }}
+				{% if post.scripture.size > 1 %}Scripture: {{ post.scripture }}{% endif %}
+			
+			]]>
+			{%- else -%}	
+				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+			{%- endif -%}
+			</description>
 		</item>
 		{% endfor %}
 	</channel>
