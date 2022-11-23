@@ -40,9 +40,9 @@
 			<itunes:summary>
 			{%- if post.series.size > 1 -%}
 				This message is part of the series, {{ post.series }}.
-				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+				{% if post.scripture.size > 1 %} Scripture: {{ post.scripture | xml_escape }}{% endif %}
 			{%- else -%}	
-				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+				{% if post.scripture.size > 1 %} Scripture: {{ post.scripture | xml_escape }}{% endif %}
 			{%- endif -%}
 			</itunes:summary>
 			<itunes:image href="{{ site.url }}/images/itunes.jpg" />
@@ -55,7 +55,7 @@
 			<description>
 			{%- if post.series.size > 1 -%}
 				This message is part of the series, {{ post.series }}. {%if item.description.size > 1 %}{{ item.description | strip_newlines | xml_escape }}{% endif %}
-				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+				{% if post.scripture.size > 1 %} Scripture: {{ post.scripture | xml_escape }}{% endif %}
 			{%- elsif item.description.size > 1 -%}
 			<![CDATA[
 				{{ post.description | markdownify }}
@@ -63,7 +63,7 @@
 			
 			]]>
 			{%- else -%}	
-				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+				{% if post.scripture.size > 1 %} Scripture: {{ post.scripture | xml_escape }}{% endif %}
 			{%- endif -%}
 			</description>
 		</item>
