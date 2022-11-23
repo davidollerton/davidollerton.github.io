@@ -1,5 +1,5 @@
 ---
-title: The living oracle
+title: '2 of 5: The living oracle'
 series: The Importance of the Bible
 scripture: 1 Peter 1:1-9, 17-25
 church: esher
