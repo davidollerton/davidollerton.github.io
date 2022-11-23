@@ -37,7 +37,14 @@
 			<title>{{ post.title | xml_escape }}</title>
 			<itunes:author>{{ site.author }}</itunes:author>
 			<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-			<itunes:summary>{{ post.scripture | xml_escape }}</itunes:summary>
+			<itunes:summary>
+			{%- if post.series.size > 1 -%}
+				This message is part of the series, {{ post.series }}.
+				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+			{%- else -%}	
+				{% if post.scripture.size > 1 %} | Scripture: {{ post.scripture | xml_escape }}{% endif %}
+			{%- endif -%}
+			</itunes:summary>
 			<itunes:image href="{{ site.url }}/images/itunes.jpg" />
 			<enclosure url="http://sermons.davidollerton.org.s3.amazonaws.com/data{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
 			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
