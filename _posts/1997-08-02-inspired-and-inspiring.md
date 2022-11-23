@@ -1,5 +1,5 @@
 ---
-title: Inspired and inspiring
+title: '3 of 5: Inspired and inspiring'
 series: The Importance of the Bible
 scripture: 2 Timothy 3
 church: esher
