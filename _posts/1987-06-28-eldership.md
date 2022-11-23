@@ -1,11 +1,13 @@
 ---
-title: "Eldership"
-scripture: "1 Peter 5:1-5"
+title: Eldership
+scripture: 1 Peter 5:1-5
 church: esher
-file: /1987/28-06-1987.mp3
-excerpt: ""
-summary: ""
-duration: "31:18"
+file: "/1987/28-06-1987.mp3"
+excerpt: ''
+summary: ''
+duration: '31:18'
 length: "43360271"
-category: "church-leadership"
+category: church-leadership
+date: 1987-06-28T12:00:00+01:00
+
 ---
