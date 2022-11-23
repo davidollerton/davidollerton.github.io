@@ -17,5 +17,5 @@ sass:
   style: :compressed
 
 # Additional Jekyll Support
-gems:
+plugins:
   - jekyll-sitemap
