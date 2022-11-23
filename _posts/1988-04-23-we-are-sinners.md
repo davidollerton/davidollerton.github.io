@@ -2,11 +2,13 @@
 title: We are sinners
 scripture: 1 Timothy 1:12-20
 church: esher
-file: /1988/1988-04-24.mp3
+file: "/1988/1988-04-24.mp3"
 excerpt: ''
 summary: ''
 duration: '37:28'
 length: "53940574"
-date: 1988-04-23 23:00:00 +0000
+date: 1988-04-24T12:00:00+01:00
+series: ''
+category: ''
 
 ---
