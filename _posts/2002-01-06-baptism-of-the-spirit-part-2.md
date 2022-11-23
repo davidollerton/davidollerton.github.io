@@ -7,7 +7,7 @@ excerpt: ''
 summary: ''
 duration: '38:18'
 length: "36775349"
-date: 2002-01-07T12:00:00+00:00
+date: 2002-01-06T12:00:00+00:00
 series: ''
 category: ''
 
