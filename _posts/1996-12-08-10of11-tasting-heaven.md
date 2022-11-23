@@ -8,6 +8,7 @@ excerpt: ''
 summary: ''
 duration: '32:08'
 length: "46801431"
-date: 1996-12-08T00:00:00.000+00:00
+date: 1996-12-08T12:00:00+00:00
+category: ''
 
 ---
