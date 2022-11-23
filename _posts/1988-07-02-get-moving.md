@@ -7,7 +7,7 @@ excerpt: ''
 summary: ''
 duration: '34:00'
 length: "48961459"
-date: 1988-07-03 23:00:00 +0000
+date: 1988-07-03 00:00:00 +0000
 series: ''
 
 ---
