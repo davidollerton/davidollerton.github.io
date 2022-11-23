@@ -1,5 +1,5 @@
 ---
-title: The way to the good life
+title: '4 of 5: The way to the good life'
 series: The Importance of the Bible
 scripture: Joshua 1:1-9
 church: esher
