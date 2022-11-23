@@ -1,10 +1,12 @@
 ---
-title: "Simeon: What did we get for Christmas?"
-scripture: "Luke 2:25-35"
+title: 'Simeon: What did we get for Christmas?'
+scripture: Luke 2:25-35
 church: hillcity
-file: /2015/11-01-2015.mp3
-excerpt: ""
-summary: ""
-duration: "42:07"
+file: "/2015/11-01-2015.mp3"
+excerpt: ''
+summary: ''
+duration: '42:07'
 length: "50551320"
+date: 2015-01-11T12:00:00+00:00
+
 ---
