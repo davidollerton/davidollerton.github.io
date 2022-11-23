@@ -1,5 +1,5 @@
 ---
-title: Accepting the Bibles authority
+title: '5 of 5: Accepting the Bibles authority'
 series: The Importance of the Bible
 scripture: Luke 24:13-49
 church: esher
