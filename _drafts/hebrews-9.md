@@ -1,14 +1,14 @@
 ---
 title: Hebrews 9
 series: The Book of Hebrews
-scripture: Hebrews 8
+scripture: Hebrews 9
 church: esher
-file: "/1991/1991-03-24/mp3"
+file: "/1991/1991-04-14/mp3"
 excerpt: ''
 summary: ''
 duration: ''
 length: ''
-date: 1991-03-24T12:00:00+00:00
+date: 1991-04-14T12:00:00+01:00
 category: ''
 
 ---
