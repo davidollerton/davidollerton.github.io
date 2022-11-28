@@ -1,14 +1,14 @@
 ---
 title: Hebrews 2
 series: The Book of Hebrews
-scripture: Hebrews 1
+scripture: Hebrews 2
 church: esher
-file: "/1990/1990-12-16/mp3"
+file: "/1991/1991-01-06/mp3"
 excerpt: ''
 summary: ''
 duration: ''
 length: ''
-date: 1990-12-16T12:00:00+00:00
+date: 1991-01-06T12:00:00+00:00
 category: ''
 
 ---
