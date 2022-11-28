@@ -1,7 +1,7 @@
 ---
-title: Hebrews 4
+title: Hebrews 6
 series: The Book of Hebrews
-scripture: Hebrews 4
+scripture: Hebrews 6
 church: esher
 file: "/1991/1991-02-24/mp3"
 excerpt: ''
